@@ -19,6 +19,7 @@ public class CirculoCalc {
 		System.out.printf("Circumference: %.2f%n", c);
 		System.out.printf("Volume: %.2f%n", v);
 		System.out.printf("PI: %.2f%n", PI);
+		scanner.close();
 	}
 
 	public static double circumference(double radius) {
